@@ -1,0 +1,30 @@
+{
+  "name": "express-svg-render",
+  "version": "1.0.0",
+  "description": "Dynamically rendering svg with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halitsever/express-svg-render.git"
+  },
+  "keywords": [
+    "express",
+    "svg",
+    "render"
+  ],
+  "author": "Halit Sever",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/halitsever/express-svg-render/issues"
+  },
+  "homepage": "https://github.com/halitsever/express-svg-render#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
